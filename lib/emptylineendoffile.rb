@@ -10,4 +10,4 @@ class EmptyLineEndOfFile < Rule
     end
     @broken
   end
-  end
+end

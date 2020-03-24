@@ -14,7 +14,7 @@ def display_report
     print "#{line[2]} "
     print "(#{line[3]}) \n\n"
   end
-  end
+end
 
 input_array = ARGV
 files = []
