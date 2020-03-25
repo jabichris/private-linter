@@ -20,6 +20,10 @@ Run linter by typing: `ruby bin/main.rb`
 
 Enjoy!
 
+## Run tests
+
+After cloning the project, run `rspec ./spec/emptylineendoffile_spec.rb`
+
 ## Error List And Example:
 
 Bad Code
