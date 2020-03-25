@@ -4,24 +4,19 @@ A simple linter that checks for basic empty line at the end of file.
 
 ## Built With
 
-Ruby
-Rubocop
-Gem
-VS Code
-
-## Screenshots
-
-Faulty CSS missing colon warning in the console:
-Warning
+- Ruby
+- Rubocop
+- Gem
+- VS Code
 
 ## Pre-requisites
 
-Ruby must be installed in your computer.
+Ruby and Rubocop must be installed in your computer.
 
 ## Installing Linter
 
 When you have installed Ruby on your computer, clone the project.
-Run linter by typing: bin/main.rb
+Run linter by typing: `ruby bin/main.rb`
 
 Enjoy!
 
@@ -29,7 +24,20 @@ Enjoy!
 
 Bad Code
 
+```
+  def add_to_report(file_name, line, name, info)
+    @@report << [file_name, line, name, info]
+  end # End of file
+```
+
 Good Code
+
+```
+  def add_to_report(file_name, line, name, info)
+    @@report << [file_name, line, name, info]
+  end
+# End of file
+```
 
 ## Authors
 
@@ -52,5 +60,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Microverse
-📝 License
+
+## 📝 License
+
 This project is MIT licensed.
