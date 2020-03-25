@@ -41,4 +41,4 @@ files.each do |f_name|
   rules.each { |rule| rule.parse(file_data, f_name) }
 end
 
-display_report
+display_report # rubocop:disable Layout/TrailingEmptyLines
